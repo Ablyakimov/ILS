@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.leaflet-container {
+  width: 70vw;
+  height: 100vh;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  padding: 2em;
+  width: 60vw;
+}
+
+.sidebar h2,
+.sidebar p,
+.sidebar ul {
+  text-align: left;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar button {
+  width: 100%;
+  font-weight: bold;
+  padding: .8em 1em;
+}
+.leaflet-routing-container.leaflet-bar.leaflet-control {
+  display: none;
+}
+
+.modal-button__add {
+  display: flex;
+  justify-content: center;;
+}
